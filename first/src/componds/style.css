@@ -1,0 +1,60 @@
+.popup{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(13, 14, 13, 0.8);
+
+}
+.popupinner{
+    max-width: 40%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+
+
+}
+.text2{
+    text-align: center;
+    text-decoration: underline;
+    color: mediumblue;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+
+}
+.close{
+    display:table-cell;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+    color: rgb(245, 236, 236);
+    background-color: rgba(250, 7, 27, 0.818);
+    transition: 0.5s;
+    float:right;
+    
+
+}
+.close:hover{
+    background-color: rgba(248,21,40,);
+    opacity:5;
+
+}
+.tick{
+    color: gray;
+    font-size: 50px;
+    border-radius:50% ;
+    border: 5px double darkgreen;
+
+}
